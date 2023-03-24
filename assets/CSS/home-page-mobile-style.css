@@ -1,0 +1,164 @@
+body{
+    max-width: 768px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 63px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img{    
+    width: 162px;
+    height: 44px;
+    background-color: red;
+
+}
+
+.location{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+    color: red;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 287px;
+    align-items: center;
+}
+
+.explore-btn{
+    height: 50px;
+}
+
+.fonctionnement{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 440px;
+    border: 1px solid;    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 48px;
+    box-sizing: border-box;
+    
+       
+}
+
+.fonct-card{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 26px;
+}
+
+.fonctionnement-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 72px;
+    background-color: #F5EDFF ;
+    border-radius: 20px; 
+    justify-content: center;
+    align-items: center;         
+}
+
+.restaurants-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1226px;
+    border: 1px solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 54px;
+    gap: 33px;
+    box-sizing: border-box;
+}
+
+.restaurants-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 251px;
+    background-color: yellow;
+    
+}
+
+.card img{
+    height: 174px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 197px;
+    background-color: #353535;
+    padding-left: 25px;
+    box-sizing: border-box;
+    
+
+
+}
+
+.footer-logo{
+    display: flex; 
+    flex-direction: row;  
+    margin: 0;
+    margin-top: 22px;
+    margin-bottom: 16px;
+    font-family: 'Shrikhand', cursive;
+    color: #ffffff;
+    
+
+}
+
+.bottom-page-link{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+footer a{
+    color: #ffffff;
+}

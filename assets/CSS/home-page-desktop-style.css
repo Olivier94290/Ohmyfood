@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+    
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.fonctionnement{
+    height: 262px;
+}
+
+.fonct-card{
+    flex-direction: row;
+}
+
+.restaurants-cards{
+    flex-direction: row;
+}
+
+.restaurants-list{
+    height: 436px;
+}
+
+.card{
+    box-sizing: border-box;
+}
+
+}
