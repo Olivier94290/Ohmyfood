@@ -4,27 +4,71 @@
 
 body{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
-.fonctionnement{
+h1{
+   margin: 0; 
+}
+
+p{
+    margin: 0;
+}
+
+.header-logo{
+    height: 96px;
+    font-size: 37px;
+}
+
+.location{
+    height: 50px;
+}
+.presentation{    
+    gap: 18px;
+}
+
+.line-1{
+    font-size: 40px;
+}
+
+.explore-btn{
+    margin-top: 0;
+}
+
+.process{
     height: 262px;
+}   
+   
+.process-card-container{
+    flex-direction: row;
+    justify-content: center;    
 }
 
-.fonct-card{
+.restaurants-card-container{
+    display: flex;
     flex-direction: row;
 }
 
-.restaurants-cards{
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 114px;
+    padding-right: 27px;
+    align-items: center;
+    gap: 71px;    
+}
+
+.footer-logo{    
+    padding-right: 50px;
+    align-items: center;
+}
+
+.bottom-page-link{
     flex-direction: row;
-}
+    justify-content: center;
+    gap: 40px;
+   
 
-.restaurants-list{
-    height: 436px;
-}
-
-.card{
-    box-sizing: border-box;
 }
 
 }
