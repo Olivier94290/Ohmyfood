@@ -20,6 +20,11 @@ p{
     font-size: 37px;
 }
 
+.header-logo img{
+    width: 200px;
+    height: 54px;
+}
+
 .location{
     height: 50px;
 }

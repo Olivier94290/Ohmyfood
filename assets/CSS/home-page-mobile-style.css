@@ -34,11 +34,14 @@ a:hover{
     height: 63px;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-    font-family: 'Shrikhand', cursive;
-    font-size: 30px;
-    font-weight: 400;
+    background-color: #FFFFFF;    
+}
+
+.header-logo img{
+    width: 162px;
+    height: 44px;
+    box-sizing: border-box;
+    object-fit: contain;
 }
 
 /* ZONE GEOGRAPHIQUE RESTAURANT */
