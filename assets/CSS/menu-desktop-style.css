@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+    
+
+
+body{
+    max-width: 1440px;   
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.arrow{
+    margin-left: 75px;
+}
+.container{
+    width: 75%;
+}
+
+.restaurant-name{
+    justify-content: center;
+
+}
+
+.heart{
+    padding-left: 24px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 114px;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;  
+    text-decoration: none;  
+}
+
+.footer-logo{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-page-link{
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+   
+
+}
+
+}
