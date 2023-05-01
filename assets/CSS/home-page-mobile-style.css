@@ -4,6 +4,7 @@ body{
     padding: 0;
     background-color: #F7F7F7;   
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 h1{
@@ -254,7 +255,7 @@ a:hover{
 }
 
 
-.btn-1:focus{
+.btn-1:hover{
     z-index: 1;
 }
 
@@ -341,6 +342,7 @@ footer{
 
 footer a{
     color: #ffffff;
+    text-decoration: none;
 }
 
 .footer-text{
