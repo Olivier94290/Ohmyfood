@@ -24,6 +24,7 @@ p{
     height: 63px;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .menu-logo{
@@ -78,8 +79,6 @@ p{
     padding-left: 4px;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
-    box-sizing: border-box;
 }
 
 .restaurant-name h1{
@@ -131,11 +130,34 @@ p{
 
 .starters,
 .main-courses,
+.desserts{    
+    animation-name: fade-in;
+    animation-duration: 1.2s; 
+    
+}
+
+@keyframes fade-in{
+     from { opacity: 0;}
+     to { opacity: 1;}
+}
+
+.starters{
+    width: 100%;
+    box-sizing: border-box;       
+}
+
+.main-courses{
+    width: 100%;
+    box-sizing: border-box; 
+    animation-delay: 0.5s;   
+}
+
 .desserts{
-    border: 1px solid;
     width: 100%;
     box-sizing: border-box;
+    animation-delay: 1s;
 }
+
 
 .section-title{
     display: flex;
@@ -178,6 +200,7 @@ p{
     white-space: nowrap;
     justify-content: space-between;
     padding-left: 11px;
+    
     
 }
 
@@ -248,8 +271,8 @@ p{
 .check-btn-1, 
 .check-btn-2{
     
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 50px;
     background-color: #fff;
     border: none;
@@ -263,7 +286,7 @@ p{
     justify-content: center;
     align-items: center;
     color: #99e2d0;
-    font-size: 14px;
+    font-size: 13px;
     z-index: 1;
 }
 
