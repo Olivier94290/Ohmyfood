@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif; 
-       
+    position: relative;
 }
 
 h1,
@@ -98,9 +98,10 @@ p{
     display: flex;    
 }
 
-.btn-1, .btn-2{
-    
+.btn-1, .btn-2{    
     font-size: 20px;
+    border: none;
+    background-color: #f2f2f2;
    
 }
 
@@ -108,33 +109,36 @@ p{
     position: relative;
     z-index: 2;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .btn-2{
     position: absolute;
     z-index: 1;
-    background-image: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%) ;
+    background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%) ;
+    background-clip: text;
     color: transparent;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 
 .btn-1:hover{
-    z-index: 1;
+    z-index: 0;
 }
 
 
 .starters{
     width: 100%;
     box-sizing: border-box;
-    animation: menu-slide 1.2s 1s forwards;    
+    animation: menu-slide 1.2s 0.5s forwards;    
     opacity: 0;       
 }
 
 .main-courses{
     width: 100%;
     box-sizing: border-box;
-    animation: menu-slide 1.5s 2s forwards;    
+    animation: menu-slide 1.5s 1.5s forwards;    
     opacity: 0; 
     
 }
@@ -142,7 +146,7 @@ p{
 .desserts{
     width: 100%;
     box-sizing: border-box;
-    animation: menu-slide 1.5s 3s forwards;    
+    animation: menu-slide 1.5s 2.5s forwards;    
     opacity: 0;
    
 }
@@ -184,7 +188,8 @@ p{
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1); 
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    cursor: pointer; 
 }
 
 .items{
@@ -227,7 +232,8 @@ p{
     align-items: center;
     background-color: #99e2d0;
     border-radius: 0 15px 15px 0; 
-   
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .price{
@@ -258,7 +264,7 @@ p{
 }
 
 .card:hover .price{
-    padding-right: none;
+    
     justify-content: center;
     
 }
@@ -283,11 +289,13 @@ p{
     color: #99e2d0;
     font-size: 13px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .check-btn-2{
     position: absolute;
     z-index: 2;
+    cursor: pointer;
 }
 
 .check-btn-2:focus{
@@ -310,11 +318,11 @@ p{
     border: none;
     border-radius: 25px;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #fff;
     background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    
+    cursor: pointer;
 }
 
 .order:hover{
