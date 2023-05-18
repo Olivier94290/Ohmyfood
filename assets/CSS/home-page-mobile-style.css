@@ -170,7 +170,7 @@ a:hover{
 
 /* OPTIONS DE RESERVATIONS */
 
-.process{
+.booking-process{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -190,7 +190,7 @@ a:hover{
     margin-top: 26px; 
 }
 
-.fonctionnement-card{
+.booking-process-card{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -203,7 +203,7 @@ a:hover{
      
 }
 
-.fonctionnement-card:hover{
+.booking-process-card:hover{
     background-color: #F7F7F7;
 }
 
