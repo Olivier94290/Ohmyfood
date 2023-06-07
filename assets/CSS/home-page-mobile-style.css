@@ -291,7 +291,7 @@ a:hover{
 }    
 
 
-.heart{   
+.heart{ 
     width: 22px;
     height: 22px; 
     margin-top: 7px; 
@@ -302,8 +302,6 @@ a:hover{
 }
 
 .btn-1, .btn-2{
-    width: 22px;
-    height: 21px;
     font-size: 20px;
     border-style: none;
     background-color: #fff;
@@ -326,13 +324,12 @@ a:hover{
     background-clip: text;
     color: transparent;
     box-sizing: border-box;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .btn-1:hover{
     z-index: 1;
-    transition: 0.3s ease-in-out;    
+    transition: 1.5s ease-in-out;    
 }
 
 /* photo + pastille */
