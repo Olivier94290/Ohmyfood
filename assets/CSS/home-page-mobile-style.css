@@ -321,10 +321,11 @@ a:hover{
     position: absolute;
     z-index: 1;
     background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%) ;
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     box-sizing: border-box;
     cursor: pointer; 
+    -webkit-background-clip: text;
 }
 
 .btn-1:hover{
