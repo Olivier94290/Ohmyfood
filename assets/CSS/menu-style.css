@@ -289,7 +289,7 @@ p{
     align-items: center;
     color: #99e2d0;
     font-size: 13px;
-    z-index: 1;
+    z-index: 3;
     cursor: pointer;
 }
 
@@ -299,9 +299,6 @@ p{
     cursor: pointer;
 }
 
-.check-btn-2:focus{
-    z-index: 0;
-}
 
 
 .btn{
