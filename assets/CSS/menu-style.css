@@ -115,6 +115,7 @@ p{
     position: absolute;
     z-index: 1;
     background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%) ;
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     box-sizing: border-box;
